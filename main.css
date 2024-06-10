@@ -1,0 +1,43 @@
+#card:hover {
+    box-shadow: 0 4px 8px 20px rgb(247, 245, 245);
+    transition: all;
+    transition-duration: 1s;
+    
+}
+#card:hover #lightblueimg {
+    background-color: rgb(93, 159, 235);
+}
+#card2:hover {
+    box-shadow: 0 4px 8px 10px rgb(1, 12, 51);
+    transition: all;
+    transition-duration: 1s;
+    
+}
+#card2:hover #img2 {
+    background-color:rgb(93, 159, 235);
+}
+#card3:hover{
+    box-shadow: 0 4px 8px 10px rgb(223, 222, 222) ;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.moveimg{
+    animation: 10s infinite linear movecompany;
+}
+@keyframes movecompany {
+   0%{
+    top:0%;
+   } 
+   100%{
+    top: -50%;
+   }
+}
+
+.ctasection{
+    background-size: 100% 100%;
+}
